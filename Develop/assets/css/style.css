@@ -1,3 +1,4 @@
+/*General style for whole page*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,7 +9,13 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+p {
+    font-size: 16px;
+    display: inline;
+}
+
+/*Header*/
+h1 {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -24,7 +31,7 @@ h1 {
     color: #d9dcd6;
 }
 
-#header-div {
+ul {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,6 +39,7 @@ h1 {
     font-size: 20px;
 }
 
+/*Right side of header*/
 li {
     display: inline;
     margin-left: 25px;
@@ -42,11 +50,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-    display: inline;
-}
-
+/*Banner top*/
 #banner-image {
     height: 800px;
     width: 100%;
@@ -56,37 +60,11 @@ p {
     background-position: center;
 }
 
+/*Left side main body of content*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-#right-banner {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-aside {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.aside-img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 .content-element {
@@ -115,6 +93,35 @@ h2 {
     font-size: 36px;
 }
 
+/*right side content*/
+#right-banner {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+aside {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.aside-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*footer content*/
 footer {
     padding: 30px;
     clear: both;
