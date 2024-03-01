@@ -15,7 +15,7 @@ p {
 }
 
 /*Header*/
-h1 {
+#header-border {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -26,11 +26,12 @@ h1 {
     display: inline;
     font-size: 48px;
 }
- 
+
 .seo {
     color: #d9dcd6;
 }
 
+/*Right side of header*/
 ul {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,7 +40,6 @@ ul {
     font-size: 20px;
 }
 
-/*Right side of header*/
 li {
     display: inline;
     margin-left: 25px;
